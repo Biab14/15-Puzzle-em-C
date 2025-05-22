@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>    
+#include <time.h> 
+#include <stdbool.h>
+
+
+int main() {
+    srand(time(NULL));
+
+int tabuleiro[4][4];
+
+typedef struct {
+    int matriz[4][4];
+    int linha_vazia;
+    int coluna_vazia;
+} Puzzle;
+}
